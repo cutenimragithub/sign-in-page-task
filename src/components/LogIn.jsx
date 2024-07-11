@@ -94,8 +94,8 @@ function LoginPage() {
                                 </a>
                             </div>
                             {error && <div className='text-danger' role="alert">{error}</div>}
-                            <button type="submit" className="btn btn-primary sign-in-btn">Sign in</button>
-                            <button className="btn btn-outline-secondary secondary-button d-flex align-items-center justify-content-center gap-2">
+                            <button type="submit" className=" sign-in-btn">Sign in</button>
+                            <button className=" secondary-button d-flex align-items-center justify-content-center gap-2">
                                 <img src={googleLogo} alt="Google" style={{ width: '18px' }} />
                                 Sign in with Google
                             </button>
