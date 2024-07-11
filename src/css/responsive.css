@@ -1,0 +1,24 @@
+/* MAX-WIDTH 1200PX */
+@media (max-width: 1200px){
+    html{
+        font-size: 62.5%;
+    }
+    .login-form{
+        width: 100%;
+    }
+
+}
+@media (max-width: 992px){
+    .form-right-content-div {
+       
+        width: 100%;
+    }
+
+}
+@media (max-width: 768px){
+    .login-form-img {
+       
+        display: none;
+    }
+
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    /* TEXT AND BG COLORS */
+    --primary-color:#50F89A;
+    --body-color: #F9FAFB;
+    --para-color :#3B4752;
+    --select-color: #50f89a42;
+    --label-color: #000000;
+    
+    /* font family variable */
+    --sora-font: "Sora", sans-serif;
+    --public-font: "Public Sans", sans-serif;
+  }
+  
+
+  
+  body {
+ 
+   
+    font-family: var(--public-font);
+    background-color: var(--body-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+  }
+  h1{
+    font-size: 2.813rem;
+    font-weight: 600;
+    line-height: 2.563rem;
+    font-family: var(--sora-font);
+  }
+  p{
+    
+    font-weight: 300;
+    line-height: 1.375rem;
+    color: var(--para-color);
+  }
+  ::selection {
+    background-color: var(--select-color);
+}
+  a{
+    color: #000000;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  label{
+    font-weight: 500;
+    font-size: 0.938rem;
+    color: var(--label-color);
+    margin-bottom: 2px !important;
+
+  }
+  .form-input {
+    border-radius: 2px !important;
+    background-color: #F9FAFB !important;
+    border: 1px solid #CFD8E1 !important;
+    height: 2.25rem !important;
+  }
+  .form-check-input{
+    border-radius: 2px !important;
+    background-color: #F9FAFB !important;
+    border: 1px solid #CFD8E1 !important;
+  }
+  input:focus{
+    color: var(--primary-color) !important;
+    box-shadow: unset !important;
+  }
+ 
+
+
+  input::placeholder{
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: #3B4752;
+
+  }
+  button{
+    width: 100%;
+    background-color: var(--primary-color);
+    width: 100%;
+    border: unset;
+    padding: 0.563rem;
+    border-radius: 2px;
+    margin-top: 1.063rem;
+  }
+  .secondary-button{
+    background-color: #FFFFFF;
+    border: 1px solid #CFD8E1;
+  }
+  
+  /* form left content div css */
+  .form-right-content-div {
+   
+    background-color: #fff;
+    padding: 1.563rem 3.25rem 1.563rem 2.438rem;
+    width: 46%;
+ 
+  }
+  .login-form-img{
+    width: 54%;
+  }
+  .login-form{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  }
+  .login-form .login-logo{
+    width: 35%;
+    
+  }

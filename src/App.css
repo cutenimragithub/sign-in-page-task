@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* TEXT AND BG COLORS */
+  --primary-color:#50F89A;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  scroll-behavior: smooth;
+  font-family: var(--montserrat-font);
+  background-color: #F9FAFB;
+
+}
+
+/* form left content div css */
+.form-right-content-div {
+  width: 60%;
+  background-color: #fff;
+}
